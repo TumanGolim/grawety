@@ -1,6 +1,6 @@
 body {
   font-family: "Roboto", sans-serif;
-  margin: 0 auto; 
+  margin: 0 auto;
   padding: 0 120px;
   background-image: url("./images/bg/desktop.jpg");
   background-size: cover;
@@ -8,7 +8,7 @@ body {
   color: #fff;
   width: 100%;
   min-height: 1024px;
-  max-width: 1440px; 
+  max-width: 1440px;
 }
 
 .logo {
@@ -40,6 +40,8 @@ ul {
   width: 1209px;
   height: 144px;
   align-items: flex-end;
+  gap: 372px;
+  margin-bottom: 40px;
 }
 p {
   color: #878787;
@@ -84,10 +86,6 @@ a:hover {
   width: 443px;
   height: 76px;
 }
-.frame {
-  gap: 372px;
-  margin-bottom: 40px;
-}
 
 .p1 {
   width: 1200px;
@@ -99,4 +97,91 @@ a:hover {
 }
 .ul-frame {
   padding-bottom: 80px;
+}
+
+@media screen and (max-width: 390px) {
+  body {
+    padding: 0 40px;
+    width: 390px;
+    background-image: url("./images/bg/phone.jpg");
+  }
+  .logo {
+    display: flex;
+    margin: 0 81px;
+    width: 148px;
+    height: 37px;
+    padding: 30px 0 80px;
+  }
+  ul {
+    display: block;
+  }
+  .grawety {
+    color: #232222;
+    font-family: PT Mono;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 310px;
+    height: 207px;
+  }
+  .date {
+    color: #232222;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 20px;
+    width: 118px;
+    height: 20px;
+  }
+
+  .frame {
+    display: flex;
+    flex-direction: column;
+    width: 310px;
+    height: 247px;
+    gap: 0;
+    align-items: flex-start;
+  }
+
+  .coming {
+    color: #232222;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 277px;
+    height: 46px;
+    gap: 40px;
+  }
+
+  .p1 {
+    width: 310px;
+    height: 152px;
+    padding-bottom: 40px;
+  }
+  .p2 {
+    width: 310px;
+    height: 38px;
+  }
+  p {
+    color: #878787;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  a {
+    color: #1d56a7;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+  }
 }

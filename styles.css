@@ -99,7 +99,7 @@ a:hover {
   padding-bottom: 80px;
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 480px) {
   body {
     padding: 0 40px;
     width: 390px;

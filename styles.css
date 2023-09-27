@@ -1,0 +1,100 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0 120px;
+  background-image: url("./images/bg/desktop.jpg"); /* Замените 'background.jpg' на путь к вашей картинке */
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+}
+.logo {
+  width: 200px;
+  height: 50px;
+  padding-bottom: 216px;
+}
+
+h1 {
+  margin: 0;
+}
+ul {
+  padding: 0;
+  margin: 0;
+}
+.date {
+  color: #232222;
+  font-family: Roboto;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 261px;
+  height: 42px;
+  margin: 0;
+}
+.frame {
+  display: flex;
+  width: 1209px;
+  height: 144px;
+  align-items: flex-end;
+}
+p {
+  color: #878787;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0;
+}
+
+a {
+  color: #1d56a7;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-line: underline;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+.grawety {
+  color: #232222;
+  font-family: PT Mono;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  width: 556px;
+  height: 144px;
+}
+.coming {
+  color: #232222;
+  font-family: Roboto;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 443px;
+  height: 76px;
+}
+.frame {
+  gap: 372px;
+  margin-bottom: 40px;
+}
+
+.p1 {
+  width: 1200px;
+  height: auto;
+  padding-bottom: 20px;
+}
+.content {
+  display: contents;
+}
+.ul-frame{
+   padding-bottom: 80px;
+}
+
+

@@ -6,11 +6,13 @@ body {
   background-size: cover;
   background-position: center;
   color: #fff;
+  width: 1440px;
+  height: 1024px;
 }
 .logo {
   width: 200px;
   height: 50px;
-  padding-bottom: 216px;
+  padding: 30px 0 216px;
 }
 
 h1 {
@@ -69,7 +71,6 @@ a:hover {
   line-height: normal;
   width: 576px;
   height: 144px;
-  
 }
 .coming {
   color: #232222;
@@ -94,8 +95,6 @@ a:hover {
 .content {
   display: contents;
 }
-.ul-frame{
-   padding-bottom: 80px;
+.ul-frame {
+  padding-bottom: 80px;
 }
-
-

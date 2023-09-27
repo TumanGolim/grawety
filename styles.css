@@ -1,5 +1,5 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: "Roboto", sans-serif;
   margin: 0;
   padding: 0 120px;
   background-image: url("./images/bg/desktop.jpg"); /* Замените 'background.jpg' на путь к вашей картинке */
@@ -69,6 +69,7 @@ a:hover {
   line-height: normal;
   width: 576px;
   height: 144px;
+  
 }
 .coming {
   color: #232222;
